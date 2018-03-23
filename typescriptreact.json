@@ -12,7 +12,7 @@
 			"\t});",
 			"});"
 		],
-		"description": "creates a snapshot jest test using enzyme shallow"
+		"description": "creates a snapshot jest using enzyme shallow"
 	},
 	"create_dummy_component": {
 		"prefix": "cdc",
