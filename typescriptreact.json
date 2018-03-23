@@ -1,0 +1,28 @@
+{
+	"create_jesst": {
+		"prefix": "cjest",
+		"body": [
+			"import * as React from 'react';",
+			"import { shallow } from 'enzyme';",
+			"",	
+			"describe('$1', () => {",
+    		"\tit('$2', () => {",
+        	"\t\tconst wrapper = shallow(<$0/>);",
+        	"\t\texpect(wrapper).toMatchSnapshot();",
+			"\t});",
+			"});"
+		],
+		"description": "creates a snapshot jest test using enzyme shallow"
+	},
+	"create_dummy_component": {
+		"prefix": "cdc",
+		"body": [
+			"export const $1 = () => {",
+    		"\treturn (",
+        	"\t\t$0",
+    		"\t);",
+			"};"
+		],
+		"description": "creates a dumb component"
+	}	
+}
