@@ -14,15 +14,21 @@
 		],
 		"description": "creates a snapshot jest using enzyme shallow"
 	},
-	"create_dummy_component": {
-		"prefix": "cdc",
+	"create_functional_component": {
+		"prefix": "cfc",
 		"body": [
-			"export const $1 = () => {",
+			"import * as React from 'react';",
+			"",
+			"type $1Props = {}",
+			"",
+			"const $1: React.FC<$1Props> = (props) => {",
     		"\treturn (",
-        	"\t\t$0",
-    		"\t);",
-			"};"
+        	"\t\t$2",
+    		"\t);",			
+			"};",
+			"",
+			"export default $1;"
 		],
-		"description": "creates a dumb component"
+		"description": "creates a functional React component"
 	}	
 }
