@@ -21,7 +21,7 @@
 			"",
 			"interface Props{}",
 			"",
-			"const $1: React.FC<$1Props> = (props) => {",
+			"const $1: React.FC<Props> = (props) => {",
     		"\treturn (",
         	"\t\t$2",
     		"\t);",			
