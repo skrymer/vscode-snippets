@@ -19,7 +19,7 @@
 		"body": [
 			"import * as React from 'react';",
 			"",
-			"type $1Props = {}",
+			"interface Props{}",
 			"",
 			"const $1: React.FC<$1Props> = (props) => {",
     		"\treturn (",
